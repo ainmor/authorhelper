@@ -1,0 +1,31 @@
+{
+    "name": "authorhelper",
+    "version": "1.0.0",
+    "description": "Author Helper",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ainmor/authorhelper.git"
+    },
+    "author": "Ain Mor",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ainmor/authorhelper/issues"
+    },
+    "homepage": "https://github.com/ainmor/authorhelper#readme",
+    "files": [
+        "dist/**/*"
+    ],
+    "devDependencies": {
+        "prettier": "^2.1.2",
+        "tslint": "^6.1.3",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^4.0.3"
+    }
+}
