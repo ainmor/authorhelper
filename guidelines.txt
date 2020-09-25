@@ -6,3 +6,10 @@
     "files": [
         "dist/**/*"
     ]    "author": "Ain Mor",
+
+
+
+    npm login
+    user name
+    password
+    
